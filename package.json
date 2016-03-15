@@ -1,0 +1,19 @@
+{
+  "name": "mintywebsite",
+  "version": "1.0.0",
+  "description": "Website for MintyJS",
+  "main": "/server/server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tzilist/mintywebsite.git"
+  },
+  "author": "Ted Zilist <tzilist@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tzilist/mintywebsite/issues"
+  },
+  "homepage": "https://github.com/tzilist/mintywebsite#readme"
+}
