@@ -86,8 +86,7 @@ h1 {
 
 /*div {border: 1px solid grey;}*/
 
-
-@media (min-width: 550px) {
+@media only screen and (min-width: 550px) {
   .small {
     display: none;
   }
@@ -100,9 +99,15 @@ h1 {
     text-align: left
   }
   .nav-bar {
-    padding-top: 30px;
+    padding-top: 50px;
   }
   .nav {
     padding-bottom: 0;
+  }
+}
+
+@media only screen and (min-width: 736px) {
+  .nav-bar {
+    padding-top: 30px;
   }
 }

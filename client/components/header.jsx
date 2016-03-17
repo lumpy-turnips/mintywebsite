@@ -26,7 +26,7 @@ module.exports = (
     </div>
     <div className="large">
       <div className="row nav">
-        <div className="six columns">
+        <div className="five columns">
           <div className="row">
             <h1 className="logo"><Link to={'/'}>MintyJS</Link></h1>
             <h2 className="slogan">
@@ -34,7 +34,7 @@ module.exports = (
             </h2>
           </div>
         </div>
-        <div className="six columns nav-bar">
+        <div className="seven columns nav-bar">
           <div className="row">
             <div className="four columns">
               <Link className="button button-primary nav-button" to={'/example'}>Example</Link>
