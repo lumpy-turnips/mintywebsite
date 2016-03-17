@@ -1,0 +1,108 @@
+body {
+  padding-top: 20px;
+}
+/*****
+Header
+*****/
+.large {
+  display: none;
+}
+
+.logo {
+  text-align: center;
+}
+
+.logo a {
+  text-decoration: none;
+  color: #25E698;
+}
+
+.logo a:hover {
+  color: #00D57E;
+
+}
+
+.slogan {
+  text-align: center;
+  font-size: 20px;
+}
+
+.slogan a {
+  text-decoration: none;
+}
+
+.nav-bar {
+  float: right;
+  text-align: center;
+}
+
+.nav-button {
+  width: 98%;
+  text-align: center;
+  padding: 0;
+}
+
+.nav {
+  border-bottom: 1px solid lightgrey;
+  padding-bottom: 10px;
+}
+
+
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+  background-color: #25E698;
+  border-color: #25E698;
+}
+
+.button:hover, button:hover,
+input[type="submit"]:hover,
+input[type="reset"]:hover,
+input[type="button"]:hover,
+.button:focus, button:focus,
+input[type="submit"]:focus,
+input[type="reset"]:focus,
+input[type="button"]:focus,
+.button.button-primary:hover,
+button.button-primary:hover,
+input[type="submit"].button-primary:hover,
+input[type="reset"].button-primary:hover,
+input[type="button"].button-primary:hover,
+.button.button-primary:focus,
+button.button-primary:focus,
+input[type="submit"].button-primary:focus,
+input[type="reset"].button-primary:focus,
+input[type="button"].button-primary:focus {
+  color: #FFF;
+  background-color: #0FAC6C;
+  border-color: #0FAC6C;
+}
+
+h1 {
+  clear: both;
+}
+
+/*div {border: 1px solid grey;}*/
+
+
+@media (min-width: 550px) {
+  .small {
+    display: none;
+  }
+
+  .large {
+    display: block;
+  }
+
+  .logo, .slogan{
+    text-align: left
+  }
+  .nav-bar {
+    padding-top: 30px;
+  }
+  .nav {
+    padding-bottom: 0;
+  }
+}

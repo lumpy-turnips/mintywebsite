@@ -4,7 +4,10 @@
   "description": "Website for MintyJS",
   "main": "/server/server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "prestart": "npm run task",
+    "start": "nodemon --ignore uploaded/ server/server.js",
+    "start-dev": "npm run task",
+    "task": "gulp"
   },
   "repository": {
     "type": "git",
@@ -15,5 +18,28 @@
   "bugs": {
     "url": "https://github.com/tzilist/mintywebsite/issues"
   },
-  "homepage": "https://github.com/tzilist/mintywebsite#readme"
+  "homepage": "https://github.com/tzilist/mintywebsite#readme",
+  "devDependencies": {
+    "watchify": "^3.2.2",
+    "gulp-nodemon": "^2.0.6"
+  },
+  "dependencies": {
+    "babel-preset-es2015": "^6.0.15",
+    "babel-preset-react": "^6.0.15",
+    "babelify": "^7.2.0",
+    "browserify": "^10.2.4",
+    "compression": "^1.6.1",
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-notify": "^2.2.0",
+    "jquery": "^2.2.0",
+    "nodemon": "^1.8.1",
+    "path": "^0.12.7",
+    "react": "^15.0.0-rc.2",
+    "react-dom": "^15.0.0-rc.2",
+    "react-router": "^2.0.1",
+    "react-style": "^0.5.5",
+    "start": "^4.0.1",
+    "vinyl-source-stream": "^1.1.0"
+  }
 }
