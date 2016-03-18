@@ -84,6 +84,15 @@ h1 {
   clear: both;
 }
 
+.centered {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.minty {
+  color: #25E698;
+}
+
 /*div {border: 1px solid grey;}*/
 
 @media only screen and (min-width: 550px) {
