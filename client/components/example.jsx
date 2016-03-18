@@ -9,6 +9,9 @@ export default React.createClass ({
         {Header}
         <div className="container">
           <h1>Example</h1>
+            <pre>
+Coming Soon
+            </pre>
         </div>
       </div>
     )
