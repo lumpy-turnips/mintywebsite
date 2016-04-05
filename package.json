@@ -5,7 +5,7 @@
   "main": "/server/server.js",
   "scripts": {
     "prestart": "npm run task",
-    "start": "nodemon --ignore uploaded/ server/server.js",
+    "start": "npm run server/server.js",
     "start-dev": "npm run task",
     "task": "gulp"
   },
