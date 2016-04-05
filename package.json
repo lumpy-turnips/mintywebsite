@@ -5,7 +5,7 @@
   "main": "/server/server.js",
   "scripts": {
     "prestart": "npm run task",
-    "start": "nodemon --ignore uploaded/ server/server.js",
+    "start": "npm run server/server.js",
     "start-dev": "npm run task",
     "task": "gulp"
   },
@@ -38,8 +38,9 @@
     "react": "^15.0.0-rc.2",
     "react-dom": "^15.0.0-rc.2",
     "react-router": "^2.0.1",
-    "react-style": "^0.5.5",
     "start": "^4.0.1",
-    "vinyl-source-stream": "^1.1.0"
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.2.2",
+    "gulp-nodemon": "^2.0.6"
   }
 }
